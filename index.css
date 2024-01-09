@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 .baner{
     /* background-image: url(""); */
@@ -150,9 +153,9 @@
 .ofer{
     display: flex;
     height: 410px;
-    width: 80%;
+   max-width: 1300px;
     margin-left: 60px;
-     justify-content: space-between; 
+    justify-content: space-between; 
     margin-top: 140px;
 }
 .colum h2{
@@ -171,15 +174,11 @@
     width: 390px;
     color: rgb(139, 136, 136);
 }
-/* .colom1{
-    height: 410px;
-    width: 410px;
-   
-} */
+
 .circle{
-   margin-right: 400px;
-    max-height: 500px;
-   max-width:500px;
+   margin-right: 120px;
+    max-height: 400px;
+   max-width:400px;
    border: 5px solid red;
    border-radius: 50%;
   
@@ -187,20 +186,15 @@
    align-items: center;
    padding: 15px;
    margin-top: 5px;
-   margin-left: 130px;
+   margin-left: 130px;    
+}
 
-    
-}
-.colum2{
-    padding-right: 50px
-}
 .colum2 h1{
      height: 55px ;
     width:125px;
-   position: absolute;
+   
     margin-top : 50px;
-    color: red;
-    
+    color: red;    
 } 
 .colum2 p{
     height: 90px;
@@ -243,7 +237,7 @@
     position: relative;
     top: 60px;
     max-height: 800px;
-    margin-top: 50px;
+    margin-top: 450px;
     margin-bottom: 110px;
     margin-left: 50px;
   }
@@ -260,6 +254,7 @@
     position: absolute;
     bottom:260px ;
     margin-left: 700px;
+    z-index: +1;
     
     
     
@@ -267,7 +262,7 @@
   .sol3{
     position: absolute;
     margin-left: 890px;
-    margin-top: 20px;
+    bottom: 228px;
    
     
    
@@ -367,7 +362,7 @@
 }
 
 .foter{
-    width: 80%;
+    width: 100%;
     height: 450px;
     background-color: black;
     margin-top: 90px;
