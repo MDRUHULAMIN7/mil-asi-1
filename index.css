@@ -11,6 +11,7 @@
     margin-left: 60px;
     margin-top: 50px;
     border-radius: 17px;
+    
 }
 .baner h3{
     max-height: 40px;
@@ -182,7 +183,13 @@
     padding-right: 140px;
     max-height: 310px;
    max-width:310px;
+  
     
+}
+.bod{
+    border: 5px solid red;
+    border-radius: 800px;
+    bord
 }
 .colum2 h1{
     height: 55px;
@@ -227,27 +234,37 @@
 }
 
   /* problem */
-.problem{
-    max-width: 1330px;max-height: 593px;
-     background-color: aqua; 
-     background-image: url("resources/Rectangle\ 2.png");
-     background-repeat: no-repeat;
-     
+  .solve{
+    position: relative;
+    top: 260px;
+    max-height: 800px;
+    margin-top: 200px;
+    margin-bottom: 400px;
+    left: 50px;
+  }
+  .sol{
+    position: absolute;
+    display: flex;
+    max-width: 600px;
+    max-height: 584px;
   
+    bottom: 50px;
+  }
+  .sol2{
     
-}
-.one{
-    background-image: url("resources/Rectangle\ 2.png");
-    background-repeat: no-repeat;
+    position: absolute;
+    bottom:160px ;
+    left: 730px;
+  }
+  .sol3{
+    position: absolute;
     
-    
-}
-.two{
-    height: 590px;
-    width: 600px;
-    margin-top: 300px;
-}
-
+   
+   
+    bottom: 228px;
+    left: 891px;
+  }
+  
 
 /* arekta */
 
