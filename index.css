@@ -1,7 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 .baner{
     /* background-image: url(""); */
@@ -153,9 +150,9 @@
 .ofer{
     display: flex;
     height: 410px;
-    width: 1300px;
+    width: 80%;
     margin-left: 60px;
-    justify-content: space-between;
+     justify-content: space-between; 
     margin-top: 140px;
 }
 .colum h2{
@@ -174,34 +171,42 @@
     width: 390px;
     color: rgb(139, 136, 136);
 }
-.colom1{
+/* .colom1{
     height: 410px;
     width: 410px;
    
-}
+} */
 .circle{
-    padding-right: 140px;
-    max-height: 310px;
-   max-width:310px;
+   margin-right: 400px;
+    max-height: 500px;
+   max-width:500px;
+   border: 5px solid red;
+   border-radius: 50%;
   
+   background-repeat: no-repeat;
+   align-items: center;
+   padding: 15px;
+   margin-top: 5px;
+   margin-left: 130px;
+
     
 }
-.bod{
-    border: 5px solid red;
-    border-radius: 800px;
-    bord
+.colum2{
+    padding-right: 50px
 }
 .colum2 h1{
      height: 55px ;
     width:125px;
-    margin-right:50px;
+   position: absolute;
     margin-top : 50px;
     color: red;
+    
 } 
 .colum2 p{
     height: 90px;
     width: 270px;
     color: rgb(139, 136, 136);
+    
 }
 .sale h3{
     width: 260px;
@@ -250,24 +255,25 @@
   
     bottom: 50px;
   }
-  .sol2{
+  #sol2{
     
     position: absolute;
-    bottom:160px ;
+    bottom:260px ;
+    margin-left: 700px;
     
     
     
   }
   .sol3{
-    position: relative;
+    position: absolute;
     margin-left: 890px;
     margin-top: 20px;
    
     
    
    
-    /* bottom: 228px; */
-    bottom: 0px;
+
+    
     
   }
   
@@ -333,31 +339,35 @@
 .but{
     min-width: 648px;
     min-height: 72px;
-    margin-left: 400px;
+    margin-left: 430px;
+    margin-right: 0px;
     margin-top: 70px;
 }
-.but button{
-    margin-left: 0px;
+ button{
+    margin-right: 100px;
     max-width: 92px;
-    height: 32px;
+    height: 39px;
+    position: absolute;
     color: rgb(253, 253, 253);
     background-color: red;
     font-size: small;
-    border-color: red;
+    border-color:  red;
     border-radius: 0px 18px 18px 0px;
-    padding-left: 5px;
+    
+    padding:4px ;
 }
 .but input{
-    margin-right: 0px;
+    position: relative;
+    margin-left:00px;
     width:370px ;
-    height: 32px;
+    height: 39px;
     background-color: #fff;
     border: #fff;
     border-radius:18px 0px 0px 18px ;
 }
 
 .foter{
-    width: 100%;
+    width: 80%;
     height: 450px;
     background-color: black;
     margin-top: 90px;
