@@ -192,10 +192,10 @@
     bord
 }
 .colum2 h1{
-    height: 55px;
-    width: 125px;
-    margin-right: 50px;
-    margin-top: 50px;
+     height: 55px ;
+    width:125px;
+    margin-right:50px;
+    margin-top : 50px;
     color: red;
 } 
 .colum2 p{
@@ -236,11 +236,11 @@
   /* problem */
   .solve{
     position: relative;
-    top: 260px;
+    top: 60px;
     max-height: 800px;
-    margin-top: 200px;
-    margin-bottom: 400px;
-    left: 50px;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    margin-left: 50px;
   }
   .sol{
     position: absolute;
@@ -254,15 +254,21 @@
     
     position: absolute;
     bottom:160px ;
-    left: 730px;
+    
+    
+    
   }
   .sol3{
-    position: absolute;
+    position: relative;
+    margin-left: 890px;
+    margin-top: 20px;
+   
     
    
    
-    bottom: 228px;
-    left: 891px;
+    /* bottom: 228px; */
+    bottom: 0px;
+    
   }
   
 
@@ -351,7 +357,7 @@
 }
 
 .foter{
-    width: 1440px;
+    width: 100%;
     height: 450px;
     background-color: black;
     margin-top: 90px;
